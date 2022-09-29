@@ -6142,7 +6142,7 @@ hr.pattern.pattern-2:after,
 .feature-box .feature-box-icon {
     display: inline-flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
     flex: 1 0 auto;
     background: rgba(0, 0, 0, .06);
     border-radius: 100%;
@@ -6235,8 +6235,8 @@ hr.pattern.pattern-2:after,
 .feature-box.feature-box-style-5 .feature-box-icon {
     background: 0 0;
     top: 0;
-    padding: 1em 1.4em;
-    min-width: 5em
+    padding: 0;
+    /* min-width: 5em */
 }
 
 .feature-box.feature-box-style-5 .feature-box-icon [class*=fa-],
@@ -14298,8 +14298,9 @@ html.lightbox-opened .scroll-to-top {
 section.section {
     background: #f7f7f7;
     border-top: 5px solid #f1f1f1;
-    margin: 30px 0;
-    padding: 50px 0
+    /* margin: 30px 0; */
+    padding: 90px 0 60px 0!important;
+    /* margin-bottom: 60px!important; */
 }
 
 section.section>.container {
@@ -15452,7 +15453,7 @@ html.boxed .slider-container {
 
 .social-icons li {
     display: inline-block;
-    margin: -1px 1px 0 0;
+    /* margin: -1px 1px 0 0; */
     padding: 0;
     border-radius: 100%;
     overflow: visible
@@ -15464,12 +15465,12 @@ html.boxed .slider-container {
     display: block;
     height: 28px;
     line-height: 28px;
-    width: 28px;
+    /* width: 28px; */
     text-align: center;
     color: #333 !important;
     text-decoration: none;
-    font-size: 12.8px;
-    font-size: .8rem
+    /* font-size: 12.8px; */
+    /* font-size: .8rem */
 }
 
 .social-icons li:hover a {
@@ -15579,9 +15580,9 @@ html.boxed .slider-container {
 
 .social-icons.social-icons-medium li a,
 .social-icons.social-icons-md li a {
-    height: 33px;
+    height: 35px;
     line-height: 33px;
-    width: 33px;
+    width: 35px;
     font-size: 14.4px;
     font-size: .9rem
 }

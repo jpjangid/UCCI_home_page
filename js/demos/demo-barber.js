@@ -56,6 +56,8 @@ Theme Version:	9.7.0
                                     nav: false,
                                     dots: false,
                                     loop: true,
+                                    margin: 15,
+                                    items:2,
                                     navText: [],
                                     autoplay: true,
                                     autoplayTimeout: 6000,

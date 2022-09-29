@@ -46,19 +46,20 @@ body {
 
 .custom-svg-btn-style-1 {
     position: relative;
-    padding: 19px 60px 19px 50px;
+    padding: 15px 30px 15px 15px;
     font-weight: 700;
     font-size: 13.6px;
     font-size: .85rem;
-    z-index: 1
+    z-index: 1;
+    /* margin-left:15px; */
 }
 
 .custom-svg-btn-style-1 .custom-svg-btn-background {
     position: absolute;
     top: 52%;
-    left: 50%;
+    left: 49%;
     z-index: 0;
-    width: 100%;
+    width: 104%;
     height: 100%;
     transform: translate3d(-50%, -50%, 0);
     z-index: -1
@@ -217,9 +218,9 @@ polygon:hover .apply {
 
 @media(min-width:992px) {
     #header .header-nav-main nav>ul>li>a {
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 600;
-        padding: 0 1.3rem !important
+        padding: 0 0.9375rem !important
     }
 }
 
@@ -491,7 +492,9 @@ polygon:hover .apply {
 .custom-list-style-1>li {
     margin-bottom: 0;
     padding-top: 10px;
-    padding-bottom: 10px
+    padding-bottom: 15px;
+    font-size: 15px;
+
 }
 
 .custom-list-style-1>li+li {
